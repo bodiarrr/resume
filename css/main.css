@@ -19,8 +19,11 @@ body{
 }
 .header .line{
     display: block;
+    float: right;
     margin: 0 auto;
-    width: 61%;
+    width: 51%;
+    position: relative;
+    left: 13px;
     height: 4px;
     background: #fff;	
 }
