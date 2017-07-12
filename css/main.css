@@ -130,7 +130,15 @@ ul.social li:nth-of-type(2) img{
 		font-size: 45px;
 	}	
 }
-@media (max-width: 375px) {
+@media (max-width: 768px) {
+	.content .row.row-margin {
+	    margin-bottom: 20px;
+	}	
+	.content  .row.row-margin-mob {
+	    margin-bottom: 20px;
+	}	
+}
+@media (max-width: 375px) {	
 	.content p {
 		font-size: 8px;
 	}
