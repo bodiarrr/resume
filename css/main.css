@@ -30,6 +30,7 @@ body{
 }
 .box {
     border: 3px #000 solid;
+	margin-bottom: 15px;	
 }
 ul.social {
     margin: 0;
@@ -122,8 +123,23 @@ ul.social li:nth-of-type(2) img{
 		font-size: 45px;
 	}	
 }
-@media (max-width: 350px) {
+@media (max-width: 375px) {
 	.content p {
-		font-size: 14px;
+		font-size: 8px;
+	}
+	.content ul {
+		margin: 0;
+		padding: 0 0 0 15px;
+		list-style: square outside;
+		font-size: 8px;
+	}	
+	.header h2 {
+		font-size: 18px;
+	}
+	.content h3 {
+		font-size: 16px;
+	}
+	.content h4 {
+		font-size: 16px;
 	}	
 }
